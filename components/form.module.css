@@ -1,0 +1,86 @@
+form.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  position:relative;
+  margin-bottom: 1rem;
+}
+
+label.label {
+  font-weight: bold;
+}
+
+label.permission {
+  margin: 1px;
+  font-weight: normal;
+  font-size: 8;
+}
+
+.form-group span {
+  position: absolute;
+  display: inline-block;
+  padding: 3px 15px;
+  font-size: 14px;
+  color: #ea0d36;
+  border-radius: 5px;
+  top: 140%;
+  right: 0;
+  transform: translateY(-100%);  
+}
+
+.form-group .permission span{
+  top: 170%;
+  left: 0;
+}
+
+input.form-control[aria-invalid="true"] {
+  box-shadow: 1px 1px 3px rgba(234, 13, 54, 1);
+}
+
+input.form-control:focus {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+input.form-control {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+
+
+button.btn {
+  padding: 0.5rem 1rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s;
+  margin-bottom: 10px;
+  margin-top:30px;
+}
+
+button.btn:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  transform: translate(-2px, -2px);
+}
+
+
+.permission a{
+  color: blue;
+}
+
+.permission a:hover,
+.permission a:focus,
+.permission a:active {
+  text-decoration: underline;
+}
+
+.form-group-fake{
+  display: none;
+}
