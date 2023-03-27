@@ -1,8 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Layout from '../components/layout';
 import Form from '../components/form'
-import Banner from '../components/banner'
 import styles from '../styles/styles.module.css'
 
 export default function Index() {
@@ -11,7 +9,6 @@ export default function Index() {
       <Head>
         <title>Formularz</title>
       </Head>
-      <Banner></Banner>
       <div className={styles.container}>
         <div className={styles.intro}>
           <p>What is Lorem Ipsum?

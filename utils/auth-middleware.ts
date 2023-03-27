@@ -17,7 +17,3 @@ export default function initMiddleware(middleware: MiddlewareType) {
       });
     });
 }
-
-// export default function initMiddleware(a:any){
-
-// }

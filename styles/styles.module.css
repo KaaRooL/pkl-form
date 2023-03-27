@@ -1,8 +1,13 @@
 .intro{
   margin: 50px 0;
 }
+.intro span{
+  color: #0085AE;
+  font-weight: bold;
+  
+}
 .container {
-  max-width: 36rem;
+  max-width:70rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
 }

@@ -1,15 +1,18 @@
 {
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "node app.js | pino-pretty",
+    "start-prod": "SET NODE_ENV=production & node app.js",
+    "start-log": "node app.js > my_app_log.log 2> my_app_err.log"
   },
   "dependencies": {
     "express-basic-auth": "^1.2.1",
+    "mysql2": "^3.1.2",
     "next": "latest",
     "nodemailer": "^6.9.0",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.0"
   },
